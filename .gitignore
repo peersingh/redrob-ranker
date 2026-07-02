@@ -1,4 +1,4 @@
-# Large data files (too big for GitHub)
+# Large data files (too big for GitHub — ~487 MB)
 data/candidates.jsonl
 data/candidates.jsonl.gz
 
@@ -17,11 +17,13 @@ env/
 .DS_Store
 Thumbs.db
 
-# Scratch / debug files
-precompute/cache/audit.py
-audit.py
+# Test / scratch / debug files
+phase1_test.py
 phase3_test.py
 phase3_verify_checks.py
+phase5_test.py
+audit.py
+precompute/cache/audit.py
 
-# Sentence-transformer model cache (re-downloaded on first run)
+# Sentence-transformer model cache (re-downloaded automatically on first run)
 precompute/cache/models/
