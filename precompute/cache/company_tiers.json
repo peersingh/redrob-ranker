@@ -1,0 +1,254 @@
+{
+  "acme corp": {
+    "tier": "D - filler/neutral",
+    "modifier": 0.0
+  },
+  "paytm": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "genpact ai": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "ola": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "stark industries": {
+    "tier": "D - filler/neutral",
+    "modifier": 0.0
+  },
+  "aganitha": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "wayne enterprises": {
+    "tier": "D - filler/neutral",
+    "modifier": 0.0
+  },
+  "sarvam ai": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "tcs": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "infosys": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "inmobi": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "glance": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "observe.ai": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "pharmeasy": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "netflix": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "rephrase.ai": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "freshworks": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "krutrim": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "locobuzz": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "google": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "capgemini": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "accenture": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "cognizant": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "phonepe": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "wipro": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "saarthi.ai": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "meta": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "hooli": {
+    "tier": "D - filler/neutral",
+    "modifier": 0.0
+  },
+  "pied piper": {
+    "tier": "D - filler/neutral",
+    "modifier": 0.0
+  },
+  "adobe": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "dunder mifflin": {
+    "tier": "D - filler/neutral",
+    "modifier": 0.0
+  },
+  "yellow.ai": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "upgrad": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "zomato": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "globex inc": {
+    "tier": "D - filler/neutral",
+    "modifier": 0.0
+  },
+  "amazon": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "dream11": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "niramai": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "meesho": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "verloop.io": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "hcl": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "salesforce": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "wysa": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "apple": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "swiggy": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "policybazaar": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "mphasis": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "cred": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "initech": {
+    "tier": "D - filler/neutral",
+    "modifier": 0.0
+  },
+  "linkedin": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "uber": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "unacademy": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "mindtree": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "flipkart": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "nykaa": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "vedantu": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "mad street den": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "byju's": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "haptik": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "zoho": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  },
+  "tech mahindra": {
+    "tier": "C - JD-named disqualifier (services/consulting)",
+    "modifier": -0.4
+  },
+  "microsoft": {
+    "tier": "A - rare high-signal (applied-AI / global tech)",
+    "modifier": 0.4
+  },
+  "razorpay": {
+    "tier": "B - product/unicorn company",
+    "modifier": 0.2
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "total_pool_candidates": 100000,
+    "generated_at": "2026-07-02 12:00:30",
+    "global_median_years_experience": 6.8,
+    "global_median_github_score": 28.4
+  },
+  "companies": {
+    "mindtree": {
+      "earliest_known_start": "2016-04-19",
+      "headcount": 2879,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "dunder mifflin": {
+      "earliest_known_start": "2011-05-09",
+      "headcount": 23416,
+      "observed_sizes": [
+        "201-500"
+      ],
+      "primary_industries": [
+        "Paper Products"
+      ]
+    },
+    "wipro": {
+      "earliest_known_start": "2011-04-16",
+      "headcount": 23682,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "acme corp": {
+      "earliest_known_start": "2011-06-01",
+      "headcount": 23546,
+      "observed_sizes": [
+        "201-500"
+      ],
+      "primary_industries": [
+        "Manufacturing"
+      ]
+    },
+    "tcs": {
+      "earliest_known_start": "2011-04-18",
+      "headcount": 23483,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "infosys": {
+      "earliest_known_start": "2011-04-16",
+      "headcount": 23722,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "globex inc": {
+      "earliest_known_start": "2011-04-16",
+      "headcount": 23471,
+      "observed_sizes": [
+        "501-1000"
+      ],
+      "primary_industries": [
+        "Manufacturing"
+      ]
+    },
+    "stark industries": {
+      "earliest_known_start": "2011-05-16",
+      "headcount": 23524,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "Manufacturing"
+      ]
+    },
+    "initech": {
+      "earliest_known_start": "2011-05-25",
+      "headcount": 23590,
+      "observed_sizes": [
+        "51-200"
+      ],
+      "primary_industries": [
+        "Software"
+      ]
+    },
+    "wayne enterprises": {
+      "earliest_known_start": "2011-06-24",
+      "headcount": 23556,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Conglomerate"
+      ]
+    },
+    "pied piper": {
+      "earliest_known_start": "2011-05-02",
+      "headcount": 23614,
+      "observed_sizes": [
+        "11-50"
+      ],
+      "primary_industries": [
+        "Software"
+      ]
+    },
+    "ola": {
+      "earliest_known_start": "2018-06-08",
+      "headcount": 353,
+      "observed_sizes": [
+        "5001-10000"
+      ],
+      "primary_industries": [
+        "Transportation"
+      ]
+    },
+    "hooli": {
+      "earliest_known_start": "2011-05-02",
+      "headcount": 23509,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "Software"
+      ]
+    },
+    "zomato": {
+      "earliest_known_start": "2016-05-19",
+      "headcount": 2883,
+      "observed_sizes": [
+        "5001-10000"
+      ],
+      "primary_industries": [
+        "Food Delivery"
+      ]
+    },
+    "razorpay": {
+      "earliest_known_start": "2016-03-20",
+      "headcount": 2926,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "Fintech"
+      ]
+    },
+    "flipkart": {
+      "earliest_known_start": "2016-05-19",
+      "headcount": 2882,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "E-commerce"
+      ]
+    },
+    "tech mahindra": {
+      "earliest_known_start": "2016-06-04",
+      "headcount": 2837,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "swiggy": {
+      "earliest_known_start": "2016-02-19",
+      "headcount": 3019,
+      "observed_sizes": [
+        "5001-10000"
+      ],
+      "primary_industries": [
+        "Food Delivery"
+      ]
+    },
+    "mad street den": {
+      "earliest_known_start": "2018-10-15",
+      "headcount": 65,
+      "observed_sizes": [
+        "201-500"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "uber": {
+      "earliest_known_start": "2019-02-03",
+      "headcount": 11,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Transportation"
+      ]
+    },
+    "cognizant": {
+      "earliest_known_start": "2016-05-19",
+      "headcount": 2863,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "hcl": {
+      "earliest_known_start": "2016-06-11",
+      "headcount": 2894,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "cred": {
+      "earliest_known_start": "2016-05-21",
+      "headcount": 2908,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "Fintech"
+      ]
+    },
+    "mphasis": {
+      "earliest_known_start": "2016-06-18",
+      "headcount": 2822,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "accenture": {
+      "earliest_known_start": "2016-05-05",
+      "headcount": 2871,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Consulting"
+      ]
+    },
+    "upgrad": {
+      "earliest_known_start": "2018-07-08",
+      "headcount": 338,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "EdTech"
+      ]
+    },
+    "unacademy": {
+      "earliest_known_start": "2018-07-08",
+      "headcount": 341,
+      "observed_sizes": [
+        "5001-10000"
+      ],
+      "primary_industries": [
+        "EdTech"
+      ]
+    },
+    "byju's": {
+      "earliest_known_start": "2018-07-08",
+      "headcount": 355,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "EdTech"
+      ]
+    },
+    "paytm": {
+      "earliest_known_start": "2018-07-08",
+      "headcount": 343,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Fintech"
+      ]
+    },
+    "aganitha": {
+      "earliest_known_start": "2018-11-05",
+      "headcount": 69,
+      "observed_sizes": [
+        "51-200"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "freshworks": {
+      "earliest_known_start": "2018-06-01",
+      "headcount": 338,
+      "observed_sizes": [
+        "5001-10000"
+      ],
+      "primary_industries": [
+        "SaaS"
+      ]
+    },
+    "nykaa": {
+      "earliest_known_start": "2018-06-08",
+      "headcount": 378,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "E-commerce"
+      ]
+    },
+    "phonepe": {
+      "earliest_known_start": "2018-06-08",
+      "headcount": 336,
+      "observed_sizes": [
+        "5001-10000"
+      ],
+      "primary_industries": [
+        "Fintech"
+      ]
+    },
+    "yellow.ai": {
+      "earliest_known_start": "2018-07-31",
+      "headcount": 59,
+      "observed_sizes": [
+        "201-500"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "capgemini": {
+      "earliest_known_start": "2016-04-19",
+      "headcount": 2895,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "IT Services"
+      ]
+    },
+    "vedantu": {
+      "earliest_known_start": "2018-06-01",
+      "headcount": 350,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "EdTech"
+      ]
+    },
+    "haptik": {
+      "earliest_known_start": "2017-08-28",
+      "headcount": 62,
+      "observed_sizes": [
+        "201-500"
+      ],
+      "primary_industries": [
+        "Conversational AI"
+      ]
+    },
+    "saarthi.ai": {
+      "earliest_known_start": "2018-10-15",
+      "headcount": 68,
+      "observed_sizes": [
+        "11-50"
+      ],
+      "primary_industries": [
+        "Voice AI"
+      ]
+    },
+    "rephrase.ai": {
+      "earliest_known_start": "2018-05-09",
+      "headcount": 72,
+      "observed_sizes": [
+        "11-50"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "inmobi": {
+      "earliest_known_start": "2018-07-08",
+      "headcount": 376,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "AdTech"
+      ]
+    },
+    "dream11": {
+      "earliest_known_start": "2018-07-08",
+      "headcount": 329,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "Gaming"
+      ]
+    },
+    "meesho": {
+      "earliest_known_start": "2018-06-24",
+      "headcount": 384,
+      "observed_sizes": [
+        "1001-5000"
+      ],
+      "primary_industries": [
+        "E-commerce"
+      ]
+    },
+    "pharmeasy": {
+      "earliest_known_start": "2018-07-08",
+      "headcount": 339,
+      "observed_sizes": [
+        "5001-10000"
+      ],
+      "primary_industries": [
+        "HealthTech"
+      ]
+    },
+    "zoho": {
+      "earliest_known_start": "2018-07-31",
+      "headcount": 352,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "SaaS"
+      ]
+    },
+    "wysa": {
+      "earliest_known_start": "2018-12-21",
+      "headcount": 63,
+      "observed_sizes": [
+        "51-200"
+      ],
+      "primary_industries": [
+        "HealthTech AI"
+      ]
+    },
+    "genpact ai": {
+      "earliest_known_start": "2017-12-10",
+      "headcount": 81,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "AI Services"
+      ]
+    },
+    "glance": {
+      "earliest_known_start": "2018-08-23",
+      "headcount": 79,
+      "observed_sizes": [
+        "501-1000"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "niramai": {
+      "earliest_known_start": "2019-02-03",
+      "headcount": 69,
+      "observed_sizes": [
+        "51-200"
+      ],
+      "primary_industries": [
+        "HealthTech AI"
+      ]
+    },
+    "policybazaar": {
+      "earliest_known_start": "2018-07-31",
+      "headcount": 355,
+      "observed_sizes": [
+        "5001-10000"
+      ],
+      "primary_industries": [
+        "Insurance Tech"
+      ]
+    },
+    "observe.ai": {
+      "earliest_known_start": "2018-05-09",
+      "headcount": 64,
+      "observed_sizes": [
+        "201-500"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "apple": {
+      "earliest_known_start": "2018-07-08",
+      "headcount": 8,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Consumer Electronics"
+      ]
+    },
+    "locobuzz": {
+      "earliest_known_start": "2018-01-25",
+      "headcount": 58,
+      "observed_sizes": [
+        "51-200"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "verloop.io": {
+      "earliest_known_start": "2019-08-11",
+      "headcount": 62,
+      "observed_sizes": [
+        "51-200"
+      ],
+      "primary_industries": [
+        "Conversational AI"
+      ]
+    },
+    "krutrim": {
+      "earliest_known_start": "2018-11-05",
+      "headcount": 64,
+      "observed_sizes": [
+        "201-500"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "sarvam ai": {
+      "earliest_known_start": "2018-09-22",
+      "headcount": 67,
+      "observed_sizes": [
+        "51-200"
+      ],
+      "primary_industries": [
+        "AI/ML"
+      ]
+    },
+    "google": {
+      "earliest_known_start": "2019-01-04",
+      "headcount": 14,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Internet"
+      ]
+    },
+    "netflix": {
+      "earliest_known_start": "2018-08-23",
+      "headcount": 13,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Media"
+      ]
+    },
+    "adobe": {
+      "earliest_known_start": "2019-10-01",
+      "headcount": 10,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Software"
+      ]
+    },
+    "amazon": {
+      "earliest_known_start": "2017-07-13",
+      "headcount": 13,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Internet"
+      ]
+    },
+    "meta": {
+      "earliest_known_start": "2018-11-21",
+      "headcount": 11,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Internet"
+      ]
+    },
+    "linkedin": {
+      "earliest_known_start": "2019-01-20",
+      "headcount": 7,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Internet"
+      ]
+    },
+    "salesforce": {
+      "earliest_known_start": "2017-08-12",
+      "headcount": 13,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Software"
+      ]
+    },
+    "microsoft": {
+      "earliest_known_start": "2018-11-21",
+      "headcount": 10,
+      "observed_sizes": [
+        "10001+"
+      ],
+      "primary_industries": [
+        "Software"
+      ]
+    }
+  }
+}

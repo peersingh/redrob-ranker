@@ -1,0 +1,27 @@
+# Large data files (too big for GitHub)
+data/candidates.jsonl
+data/candidates.jsonl.gz
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scratch / debug files
+precompute/cache/audit.py
+audit.py
+phase3_test.py
+phase3_verify_checks.py
+
+# Sentence-transformer model cache (re-downloaded on first run)
+precompute/cache/models/
