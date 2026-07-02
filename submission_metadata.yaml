@@ -1,0 +1,94 @@
+# Redrob Hackathon — Submission Metadata Template
+#
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "team_solo"  
+
+primary_contact:
+  name: "Lakavath Peer Singh"
+  email: "lakavathpeersingh2004@gmail.com"
+  phone: "+91-9381861874"
+
+team_members:
+  - name: "Lakavath Peer Singh"
+    email: "lakavathpeersingh2004@gmail.com"
+    role: "ML Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/peersingh/redrob-ranker"
+
+sandbox_link: "https://huggingface.co/spaces/solo/redrob-ranker"
+
+reproduce_command: "python rank.py --candidates ./data/candidates.jsonl --out ./team_solo.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Local Windows box"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.10"
+  os: "Windows"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 480
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Antigravity (Google DeepMind) — AI pair-programming assistant for system design and implementation"
+  - "Groq API (llama-3.1-8b-instant) — LLM judge for Phase 5 candidate evaluation (precompute only)"
+
+ai_usage_summary: |
+  Used Antigravity (Google DeepMind AI assistant) as a pair-programmer to design and implement
+  the entire ranking pipeline. All engineering decisions, scoring weights, keyword sets, honeypot
+  logic, and architecture were developed and verified iteratively. Groq API (llama-3.1-8b-instant,
+  free tier) was used exclusively in the precompute Phase 5 (llm_judge.py) to score 4000 funnel
+  candidates — zero LLM calls happen during rank.py execution.
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+methodology_summary: |
+  Multi-stage fully interpretable pipeline — rank.py completes in <2 min, CPU-only, zero network:
+
+  Phase 1 — Corpus Miner: Streamed all 100K candidates once to extract 63 distinct companies
+    with earliest-seen dates, headcounts, and pool-wide medians (YOE, GitHub activity).
+
+  Phase 2 — Company Tier Classifier: Hand-labeled all 63 companies into 4 tiers (A=global-tech/
+    Indian-AI, B=unicorn-product, C=IT-services-disqualifier, D=neutral-filler) with JD-grounded
+    score modifiers. All verified against corpus data.
+
+  Phase 3 — Rule Scorer + Honeypot Ensemble: Interpretable weighted score
+    (40% ML fit, 20% company tier, 20% behavioral signals, 10% location, 5% notice, 5% bonus)
+    with 5 JD-grounded penalties (consulting-only, CV/robotics primary, pure research,
+    title-chaser, framework tourist). Four honeypot checks (verified against real data)
+    flag exactly 44 candidates; hard-excluded from top-100.
+
+  Phase 4 — Retrieval Funnel: RRF fusion (k=60) of BM25 sparse retrieval + all-MiniLM-L6-v2
+    dense retrieval with 3 contrastive positive archetypes and 1 negative archetype. No title
+    filter — retrieves 4000 candidates for LLM review.
+
+  Phase 5 — LLM Judge (precompute only): Groq API (llama-3.1-8b-instant) evaluates all 4000
+    funnel candidates with a structured JD-grounded prompt. Returns relevance tier (A-D),
+    matched/missing requirements, honeypot flag, and draft justification. Fully checkpointed.
+
+  Phase 6-8 — Final Ranker: rank.py blends rule_score + bounded LLM modifier, hard-excludes
+    all 44+ flagged honeypots, generates grounded per-candidate reasoning citing actual JSON
+    fields. Produces exactly 100-row CSV in <2 minutes on CPU.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
