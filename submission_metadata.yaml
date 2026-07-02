@@ -20,7 +20,7 @@ team_members:
 # ============================================================================
 github_repo: "https://github.com/peersingh/redrob-ranker"
 
-sandbox_link: "https://huggingface.co/spaces/solo/redrob-ranker"
+sandbox_link: "https://colab.research.google.com/github/peersingh/redrob-ranker/blob/main/redrob_sandbox.ipynb"
 
 reproduce_command: "python rank.py --candidates ./data/candidates.jsonl --out ./team_solo.csv"
 
